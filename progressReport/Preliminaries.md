@@ -43,6 +43,6 @@ After debugging and running code to extract the iris from a picture for the firs
 
 The next steps from here will be to try to fine tune this model.
 
-After implementing dynamic thresholding, the results were notably more accurate.
+After implementing dynamic thresholding, the results were notably more accurate. The model seems to still struggle with images containing a lot of noise, or of subjects with glasses.
 
 ![](../iris2.1.jpg) ![](../iris2.2.jpg) ![](../iris2.3.jpg) ![](../iris2.4.jpg)
