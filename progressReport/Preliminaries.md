@@ -5,6 +5,12 @@ and the results of said experiments. Additionally, if outside sources (research 
 
 ## Ideas
 
+- Utilize concepts from assignment 02
+  - Handling, manipulating, classifying images.
+- Autoencoders (maybe)
+  - [Link](https://www.jeremyjordan.me/autoencoders/)
+- CNN (probably easier)
+  - [Link](https://www.geeksforgeeks.org/convolutional-neural-network-cnn-in-machine-learning/)
 - An adjacent project was found on Github, where someone used machine learning models on data containing images of somewhat zoomed out pictures of eyes, 
 training the models to detect the eye itself, then the iris, and the result was a cropped image of the isolated iris. It would be much easier for a 
 model to detect a color of an iris if the image it is looking at is just the iris itself. Utilizing some of the concepts in this person's project could
@@ -16,7 +22,7 @@ uniquely tailored to our problem.
 
 ## Experiments
 
-In attempting to replicate the 'iris_extraction' code from [Omar's project](), one observation was that it takes exceptionally long to run, due to the large train data. One idea is to utilize the GPU with cuda.
+In attempting to replicate the 'iris_extraction' code from [Omar's project](https://github.com/OmarMedhat22/Iris-Recognition-on-Ubiris-v2?tab=readme-ov-file), one observation was that it takes exceptionally long to run, due to the large train data. One idea is to utilize the GPU with cuda.
 
 
 
