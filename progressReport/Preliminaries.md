@@ -39,7 +39,7 @@ To fix the issue of incorrect cropping of the images, changes were made to how t
 
 After debugging and running code to extract the iris from a picture for the first time, the results are somewhat useful. Some of the images contained just the iris, some contained a partially cropped iris, and some were of just the eyelid or eyebrow, with no iris.
 
-![](../0.138.jpg) ![](../iris1.2.jpg) ![](../iris1.3.jpg) ![](../iris1.4.jpg) ![](../iris1.1.jpg)
+![](../iris.1.5.jpg) ![](../iris1.2.jpg) ![](../iris1.3.jpg) ![](../iris1.4.jpg) ![](../iris1.1.jpg)
 
 The next steps from here will be to try to fine tune this model.
 
