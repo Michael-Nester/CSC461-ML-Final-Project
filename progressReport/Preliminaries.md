@@ -33,7 +33,7 @@ uniquely tailored to our problem.
 
 In attempting to replicate the 'iris_extraction' code from [Omar's project](https://github.com/OmarMedhat22/Iris-Recognition-on-Ubiris-v2?tab=readme-ov-file), one observation was that it takes exceptionally long to run, due to the large train data. One idea is to utilize the GPU with cuda.
 
-
+To fix the issue of incorrect cropping of the images, changes were made to how the images were binarized (converted to black and white). Previously each image was binarized using a static value. Dynamic thresholding was implemented from OpenCV.
 
 ### Results
 
@@ -42,3 +42,7 @@ After debugging and running code to extract the iris from a picture for the firs
 ![](../0.138.jpg) ![](../0.86.jpg) ![](../0.87.jpg) ![](../0.88.jpg) ![](../0.684.jpg)
 
 The next steps from here will be to try to fine tune this model.
+
+After implementing dynamic thresholding, the results were notably more accurate.
+
+![](../0.684.jpg)
