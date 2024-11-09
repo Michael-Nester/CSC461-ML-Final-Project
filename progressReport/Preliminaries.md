@@ -18,8 +18,12 @@ uniquely tailored to our problem.
 
 In attempting to replicate the 'iris_extraction' code from [Omar's project](), one observation was that it takes exceptionally long to run, due to the large train data. One idea is to utilize the GPU with cuda.
 
+
+
 ### Results
 
 After debugging and running code to extract the iris from a picture for the first time, the results are somewhat useful. Some of the images contained just the iris, some contained a partially cropped iris, and some were of just the eyelid or eyebrow, with no iris.
 
-![](../0.138.jpg) ![](../0.86.jpg) ![](../0.87.jpg) ![](../0.88.jpg)
+![](../0.138.jpg) ![](../0.86.jpg) ![](../0.87.jpg) ![](../0.88.jpg) ![](../0.684.jpg)
+
+The next steps from here will be to try to fine tune this model.
