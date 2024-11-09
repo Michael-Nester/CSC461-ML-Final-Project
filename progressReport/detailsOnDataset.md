@@ -1,4 +1,4 @@
-# Details About The 'Iris Dataset'
+# Details About The 'Iris' Dataset
 
 
 
