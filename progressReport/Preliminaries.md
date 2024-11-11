@@ -19,7 +19,7 @@ and the results of said experiments. Additionally, if outside sources (research 
   - [Link](https://medium.com/@sachinsoni600517/mastering-t-sne-t-distributed-stochastic-neighbor-embedding-0e365ee898ea)
 - UMAP
   - [Link](https://umap-learn.readthedocs.io/en/latest/)
-- [This medium article]() outlines a project done by Peter Gatson, in which he developed a ML model to detect eye color to determine what color of clothes people should where.
+- [This medium article](https://medium.com/@peter.gaston/iris-color-detection-using-fast-ai-826d1900bcf0) outlines a project done by Peter Gatson, in which he developed a ML model to detect eye color to determine what color of clothes people should where.
 - An adjacent project was found on Github, where someone used machine learning models on data containing images of somewhat zoomed out pictures of eyes, 
 training the models to detect the eye itself, then the iris, and the result was a cropped image of the isolated iris. It would be much easier for a 
 model to detect a color of an iris if the image it is looking at is just the iris itself. Utilizing some of the concepts in this person's project could
