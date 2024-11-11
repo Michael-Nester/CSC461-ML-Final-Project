@@ -13,7 +13,7 @@ Key challenges we may face:
 
 **Eye Color Labeling:**  Since the dataset only provides broad pigmentation labels, we may need to develop a process to assign finer-grained color labels or use clustering algorithms to categorize eye color.
 **Image Processing Under Noise:** The dataset's noise factors (reflections, varied lighting) can complicate model training. We'll need effective preprocessing, such as noise reduction and normalization, to ensure consistent color changes.
-**Transformation Accuracy:** Altering eye color while maintaining natural texture and shading requires precise image generation, likely through GANs or similar models, which we can train on this dataset's broad pigmentation range.
+**Transformation Accuracy:** Altering eye color while maintaining natural texture and shading requires precise image generation, likely through CNNs, HAC, PCA or similar models, which we can train on this dataset's broad pigmentation range.
 Using UBIRIS.v2, we can create a robust model that recognizes and transforms eye color effectively, enhancing its resilience to real-world variations in image quality and lighting.
 
 
