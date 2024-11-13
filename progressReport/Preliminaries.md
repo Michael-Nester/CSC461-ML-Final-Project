@@ -54,4 +54,5 @@ uniquely tailored to our problem.
    ![](../iris2.1.jpg) ![](../iris2.2.jpg) ![](../iris2.3.jpg) ![](../iris2.4.jpg)
 
 3. With only one image, the thresholding is not working correctly. It is too bright.
+
 ![](../SingleThreshold1.0.jpg)
