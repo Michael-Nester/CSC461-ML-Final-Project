@@ -55,4 +55,4 @@ uniquely tailored to our problem.
 
 3. With only one image, the thresholding is not working correctly. It is too bright.
 
-![](../SingleThreshold1.0.jpg)
+   ![](../SingleThreshold1.0.jpg)
