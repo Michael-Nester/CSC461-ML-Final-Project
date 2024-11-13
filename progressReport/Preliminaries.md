@@ -31,18 +31,27 @@ uniquely tailored to our problem.
 
 ## Experiments
 
-In attempting to replicate the 'iris_extraction' code from [Omar's project](https://github.com/OmarMedhat22/Iris-Recognition-on-Ubiris-v2?tab=readme-ov-file), one observation was that it takes exceptionally long to run, due to the large train data. One idea is to utilize the GPU with cuda.
+1. In attempting to replicate the 'iris_extraction' code from [Omar's project](https://github.com/OmarMedhat22/Iris-Recognition-on-Ubiris-v2?tab=readme-ov-file), 
+   one observation was that it takes exceptionally long to run, due to the large train data. One idea is to utilize the GPU with cuda.
 
-To fix the issue of incorrect cropping of the images, changes were made to how the images were binarized (converted to black and white). Previously each image was binarized using a static value. Dynamic thresholding was implemented from OpenCV.
+2. To fix the issue of incorrect cropping of the images, changes were made to how the images were binarized (converted to black and white). Previously each image 
+   was binarized using a static value. Dynamic thresholding was implemented from OpenCV.
+
+3. Using the preprocessing code from previous experiments, we want to be able to pass in just one eye. This will be useful for the final product, in which we aim 
+   to be able to change the color of a persons eye from a single picture of their face.
 
 ### Results
 
-After debugging and running code to extract the iris from a picture for the first time, the results are somewhat useful. Some of the images contained just the iris, some contained a partially cropped iris, and some were of just the eyelid or eyebrow, with no iris.
+1. After debugging and running code to extract the iris from a picture for the first time, the results are somewhat useful. Some of the images contained just the 
+   iris, some contained a partially cropped iris, and some were of just the eyelid or eyebrow, with no iris.
 
-![](../iris.1.5.jpg) ![](../iris1.2.jpg) ![](../iris1.3.jpg) ![](../iris1.4.jpg) ![](../iris1.1.jpg)
+   ![](../iris.1.5.jpg) ![](../iris1.2.jpg) ![](../iris1.3.jpg) ![](../iris1.4.jpg) ![](../iris1.1.jpg)
 
-The next steps from here will be to try to fine tune this model.
+   The next steps from here will be to try to fine tune this model.
 
-After implementing dynamic thresholding, the results were notably more accurate. The model seems to still struggle with images containing a lot of noise, or of subjects with glasses.
+2. After implementing dynamic thresholding, the results were notably more accurate. The model seems to still struggle with images containing a lot of noise, or of     subjects with glasses.
 
-![](../iris2.1.jpg) ![](../iris2.2.jpg) ![](../iris2.3.jpg) ![](../iris2.4.jpg)
+   ![](../iris2.1.jpg) ![](../iris2.2.jpg) ![](../iris2.3.jpg) ![](../iris2.4.jpg)
+
+3. With only one image, the thresholding is not working correctly. It is too bright.
+   ![](../iris2.4.jpg)
