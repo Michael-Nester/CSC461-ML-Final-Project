@@ -5,6 +5,7 @@ and the results of said experiments. Additionally, if outside sources (research 
 
 ## Ideas
 
+- For the data representation part, pssibly a wave of eyes, randomizing the colors of them. Or a constantly changing color
 - Utilize concepts from assignment 02
   - Handling, manipulating, classifying images.
 - Autoencoders (maybe)
