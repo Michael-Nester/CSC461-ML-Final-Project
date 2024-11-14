@@ -41,6 +41,10 @@ uniquely tailored to our problem.
 3. Using the preprocessing code from previous experiments, we want to be able to pass in just one eye. This will be useful for the final product, in which we aim 
    to be able to change the color of a persons eye from a single picture of their face.
 
+4. We have begun the steps to classify the dataset based on colors. Some issues with this have arose, as there are no labels specifying the color fo the iris in 
+   the UBIRIS_v2 dataset. Our first test consists of an autoencoder, developed using claude and gemini tools. The autoencoder itself uses libraries such as Keras, 
+   and numpy.
+
 ### Results
 
 1. After debugging and running code to extract the iris from a picture for the first time, the results are somewhat useful. Some of the images contained just the 
@@ -57,3 +61,7 @@ uniquely tailored to our problem.
 3. With only one image, the thresholding is not working correctly. It is too bright.
 
    ![](../SingleThreshold1.0.jpg)
+
+4. The autoencoder developement process has had some issues. Trying to develop an autoencoder using unsupervised learning creates for some issues that would not be 
+   present with supervised learning. Also, we are limited in terms of memory recourses available to run these models. The current version of the autoencoder 
+   crashes in google colab after exceeding the memory limit.
