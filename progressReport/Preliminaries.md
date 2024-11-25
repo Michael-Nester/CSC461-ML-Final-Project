@@ -65,3 +65,22 @@ uniquely tailored to our problem.
 4. The autoencoder developement process has had some issues. Trying to develop an autoencoder using unsupervised learning creates for some issues that would not be 
    present with supervised learning. Also, we are limited in terms of memory recourses available to run these models. The current version of the autoencoder 
    crashes in google colab after exceeding the memory limit.
+
+5. Autoencoder w/ MLP
+
+
+   <img src="../blue(1-mlp).jpg" alt="Description" width="200" height="150">
+   <img src="../brown(1-mlp).jpg" alt="Description" width="200" height="150">
+   <img src="../gray(1-mlp).jpg" alt="Description" width="200" height="150">
+   <img src="../green(1-mlp).jpg" alt="Description" width="200" height="150">
+   <img src="../hazel(1-mlp).jpg" alt="Description" width="200" height="150">
+
+
+7. Autoencoder w/ CNN
+
+
+   <img src="../blue(1-cnn).jpg" alt="Description" width="200" height="150">
+   <img src="../brown(1-cnn).jpg" alt="Description" width="200" height="150">
+   <img src="../gray(1-cnn).jpg" alt="Description" width="200" height="150">
+   <img src="../green(1-cnn).jpg" alt="Description" width="200" height="150">
+   <img src="../hazel(1-cnn).jpg" alt="Description" width="200" height="150">
