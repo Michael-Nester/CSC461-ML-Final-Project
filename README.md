@@ -37,7 +37,7 @@ The UBIRIS.v2 dataset, containing over 11,000 images, was utilized to train and 
 - `/final_results`: Outputs, visualizations, and metrics from experiments.
   - To run the final results of this project:
     - Download FINAL_NOTEBOOK.ipynb from `/final_results`
-    - Download testData, trainData, test_labels.csv and train_labels.csv from `/data`
+    - To gain access to the UBIRIS_v2 dataset, request access [here](http://iris.di.ubi.pt/ubiris2.htmlhttp://iris.di.ubi.pt/ubiris2.html) `/data`
     - download any number of the autoencoder, encoder, and decoder folders from `/code/models`
       - NOTE: One autoencoder, encoder, and decoder are needed for running
       - NOTE: Make sure that when you change the path to load the models in the notebook, you are loading the same three model versions
