@@ -34,7 +34,15 @@ The UBIRIS.v2 dataset, containing over 11,000 images, was utilized to train and 
 ## Repository Structure
 - `/code`: Python scripts for training, evaluation, and visualizations.
 - `/data`: Preprocessed and raw datasets (linked as necessary).
-- `/results`: Outputs, visualizations, and metrics from experiments.
-
+- `/final_results`: Outputs, visualizations, and metrics from experiments.
+  - To run the final results of this project:
+    - Download FINAL_NOTEBOOK.ipynb from `/final_results`
+    - Download testData, trainData, test_labels.csv and train_labels.csv from `/data`
+    - download any number of the autoencoder, encoder, and decoder folders from `/code/models`
+      - NOTE: One autoencoder, encoder, and decoder are needed for running
+      - NOTE: Make sure that when you change the path to load the models in the notebook, you are loading the same three model versions
+      - I.E. autoencoder_model_f16 goes with encoder_model_f16 and decoder_model_f16
+- For any questions, feel free to contact us:
+  - { emails would go here, not currently listed for privacy reasons }
 ## Acknowledgment
-This project utilized insights and support from OpenAI's ChatGPT for drafting, structuring, and refining analyses.
+This project utilized insights and support from OpenAI's ChatGPT and Anthropic's Claude 3.5 Sonnet for drafting, structuring, and refining analyses.
